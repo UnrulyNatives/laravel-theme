@@ -1,4 +1,4 @@
-<?php namespace UnrulyNatives\laravelTheme;
+<?php namespace Unrulynatives\laravelTheme;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Config;
@@ -31,7 +31,7 @@ class themeServiceProvider extends ServiceProvider {
 		$this->app->bindShared('view.finder', function($app)
 		{
 			$paths = $app['config']['view.paths'];
-			return new \UnrulyNatives\laravelTheme\themeViewFinder($app['files'], $paths);
+			return new \Unrulynatives\laravelTheme\themeViewFinder($app['files'], $paths);
 		});
 
 		/*--------------------------------------------------------------------------
