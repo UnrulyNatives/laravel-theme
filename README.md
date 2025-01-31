@@ -1,3 +1,6 @@
+## This fork (by UnrulyNatives)
+Just adding Laravel 12 compatibility.
+
 ## Description
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
 [![Downloads](https://img.shields.io/packagist/dt/igaster/laravel-theme.svg?style=flat-square)](https://packagist.org/packages/igaster/laravel-theme)
